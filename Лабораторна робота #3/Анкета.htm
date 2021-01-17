@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Анкета</title>
+    </head>
+    <body>
+        <form>
+            <h1 style="text-align: center">Анкета</h1>
+            <p>Заповніть анкету для вступу в клуб "Віртуальна бібліотека"</p>
+
+            <p>
+                <b>Введіть ПІП:</b><br>
+                <input type="text">
+            </p>
+
+            <p>
+                <b>Введіть пароль:</b>
+                <input type="text">
+            </p>
+
+            <p>
+                <b>Стать:</b>
+                <input type="radio" name="gender"><i>Чоловіча</i>
+                <input type="radio" name="gender"><i>Жіноча</i>
+            </p>
+
+            <p>
+                <b>Рід занять</b><br>
+                <input type="checkbox"><i>Школяр</i><br>
+                <input type="checkbox" checked><i>Студент</i><br>
+                <input type="checkbox"><i>Аспірант</i><br>
+                <input type="checkbox"><i>Працюю</i>
+                <input type="checkbox"><i>Не працюю</i>
+            </p>
+
+            <p>
+                <b>Які книги любете читати:</b><br>
+                <select size="3" multiple>
+                    <option>науково-пізнавальна</option>
+                    <option>фантастика</option>
+                    <option>фентезі</option>
+                    <option>пригоди</option>
+                    <option>історичні</option>
+                </select>
+            </p>
+
+            <p>
+                <b>Що читаєте зараз?<br>Поділіться враженнями про прочитане:</b><br>
+                <textarea title="Худчіш" placeholder="Починайте звідси"></textarea>
+            </p>
+
+            <p>
+                <span>Додатковою інформація на сайті <a href="#">https://finenews.ua</a></span>
+            </p>
+
+            <center>
+                <input type="submit" value="Відміна">
+                <input type="submit" value="Отправить">
+            </center>
+
+        </form>
+    </body>
+</html>
